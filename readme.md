@@ -1,5 +1,7 @@
 # Data analysis of Spanish Autonomous Community election data
 
-This project used data collected from various sources to provide an analysis of Spain's Autonomous Community (regional) election results. Analysis is primarily graphics based, using Python's Seaborn, and the html generated via Jupyter Lab. The files in this repository include:
-- The .ipynb notebook file, showing the code written in order to generate the analysis
-- Other files, needed to host the project's website etc.
+As part of this project, data was collected from various sources, cleaned and an analysis of Spain's Autonomous Community (regional) election results conducted. The analysis is primarily graphics based, using Python's Seaborn, and rendered via Jupyter Lab. 
+
+The files in this repository include:
+- The .py file, in which the *data cleaning* took place (at the beginning). This involved checking (and filling in) missing values, converting vars to the correct type, renaming values, checking value ranges, checking unique values, checking outliers etc.
+- The .ipynb notebook file, which mostly contains the code with which data was manipulated and graphs generated, and which is also contained in the .py file.
